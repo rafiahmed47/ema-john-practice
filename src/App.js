@@ -11,6 +11,8 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Alert from "./components/alert/Alert";
+import ProductDetails from "./components/productDetails/ProductDetails";
 
 function App() {
   return (
@@ -30,8 +32,12 @@ function App() {
           <Route exact path="/">
             <Shop></Shop>
           </Route>
-          <Route>
+          <Route path="/product/:productKey">
+            <ProductDetails></ProductDetails>
 
+          </Route>
+          <Route path="*">
+            <Alert></Alert>
           </Route>
         </Switch>
       </Router>
