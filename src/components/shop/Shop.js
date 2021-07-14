@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import fakeData from "../../fakeData";
-import Products from "../products/Products";
-import Cart from "../cart/Cart";
+import Products from "../Products/Products";
+import Cart from "../Cart/Cart";
 import "./Shop.css";
 import { addToDatabaseCart, getDatabaseCart } from "../../utilities/databaseManager";
 import { Link } from "react-router-dom";

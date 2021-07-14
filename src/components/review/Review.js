@@ -3,8 +3,8 @@ import { useState } from 'react';
 import { useEffect } from 'react';
 import fakeData from "../../fakeData"
 import { getDatabaseCart, processOrder, removeFromDatabaseCart } from '../../utilities/databaseManager';
-import Cart from '../cart/Cart';
-import ReviewItem from '../reviewItem/ReviewItem';
+import Cart from '../Cart/Cart';
+import ReviewItem from '../ReviewItem/ReviewItem';
 import happyImage from '../../images/giphy.gif'
 import { useHistory } from 'react-router';
 
