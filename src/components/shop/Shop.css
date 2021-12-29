@@ -1,9 +1,0 @@
-.product-container {
-  display: flex;
-}
-.shop-container {
-  width: 70%;
-  margin-left: 100px;
-  margin-right: 5px;
-  border-right: 2px solid lightgrey;
-}
