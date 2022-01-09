@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../images/logo.png";
-import "./Header.css";
+import "./header.css";  
 
 const Header = () => {
   return (
@@ -10,6 +10,7 @@ const Header = () => {
         <a href="/shop">Shop</a>
         <a href="/review">Order Review</a>
         <a href="/manage">Manage Inventory</a>
+        <a href="/login">Login</a>
       </nav>
     </div>
   );
